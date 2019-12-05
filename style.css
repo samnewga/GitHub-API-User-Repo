@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: auto 0;
+    margin: auto 0;
+}
+
+li {
+    padding: 1px;
+    margin: auto 0;
+}
+
+button {
+    padding: 1px;
+}
+
+#search-form{
+  padding-top: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#results{
+  padding-top: 50px;
+}
+
+.error-message {
+    color: red;
+    font-size: 25px;
+}
+
+.hidden {
+    display: none;
+}

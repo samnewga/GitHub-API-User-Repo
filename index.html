@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GitHub API</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js">
+    </script>
+</head>
+
+<body>
+<div class="container">
+    <h1>GitHub API </h1>
+    <h4>List User Repositories</h4>
+
+    <form id="search-form">
+        <label for="user-name">Github Username</label>
+        <input type="text" name="user-name" id="user-name" required>
+        <input type="submit" value="Search">
+    </form>
+
+    <section id="results" class="hidden">
+        <h3>Search results</h3>
+        <ul id="results-list">
+        </ul>
+    </section>
+
+    <p id="error-message" class="error-message"></p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
